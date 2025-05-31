@@ -5,7 +5,7 @@ version: 2
 
 sources:
   - name: healthcare_data
-    database: pelagic-script-426718-e3
+    database: your project_id
     schema: "{{ var('schema_name', 'dev_healthcare_data') }}"
     tables:
       - name: patient_data_external
